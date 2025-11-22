@@ -25,7 +25,7 @@
     },
 
    "ghcr.io/devcontainers/features/python:1": {
-      "version": "3.13",
+      "version": "3.14",
       "installPath": "/usr/local/python/current/bin",
       "installTools": true,
       "toolsToInstall": "uv,uvx"
@@ -41,8 +41,8 @@
 
   "containerEnv": {
     "UV_LINK_MODE": "copy",
-    "UV_VIRTUAL_ENV": "/workspaces/pytemplate/.venv",
-    "UV_PYTHONPATH": "/workspaces/pytemplate/app"
+    "UV_VIRTUAL_ENV": "/workspaces/we-move/.venv",
+    "UV_PYTHONPATH": "/workspaces/we-move/app"
   },
 
   "customizations": {
